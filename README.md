@@ -81,3 +81,107 @@ When you visit a website:
   <p>This is a simple webpage built with HTML.</p>
 </body>
 </html>
+
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+h1 {
+  color: navy;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+<link rel="stylesheet" href="style.css">
+
+document.addEventListener("DOMContentLoaded", () => {
+  alert("Welcome to my website!");
+});
+
+<img src="images/logo.png" alt="Website Logo" width="200">
+
+<video controls width="500">
+  <source src="media/video.mp4" type="video/mp4">
+</video>
+
+<i class="fas fa-home"></i>
+
+<form action="/submit" method="post">
+  <label>Name:</label>
+  <input type="text" name="name" required>
+  
+  <label>Email:</label>
+  <input type="email" name="email" required>
+  
+  <button type="submit">Submit</button>
+</form>
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+
+my-website/
+│ index.html
+│ style.css
+│ script.js
+├── images/
+├── media/
+└── css/
+
+11. Common Errors and Fixes
+
+Note
+Check the browser console (F12 → Console) for error messages.
+
+Problem	Cause	Fix
+CSS not loading	Wrong file path	Fix <link> path
+Images missing	Wrong folder	Check src paths
+JS not working	Script linked incorrectly	Place <script> before </body>
+12. Publishing Your Website
+
+GitHub Pages:
+
+Push code to a GitHub repo.
+
+Go to Settings → Pages.
+
+Select main branch.
+
+Site will be live at username.github.io/repo.
+
+Netlify:
+
+Drag & drop your folder into Netlify dashboard.
+
+Vercel:
+
+Import GitHub repo in Vercel dashboard.
+
+13. Extra Tips
+
+Use Google Fonts for typography.
+
+Optimize images with TinyPNG.
+
+Validate HTML at W3C Validator.
+
+
+
+14. Resources
+
+MDN Web Docs
+
+FreeCodeCamp
+
+CSS Tricks---
+
+If we add **colored info blocks, bold section headers, and status panels** like your Swift screenshot, I can make it **look identical** using GitHub Markdown tricks + Shields.io + emojis.  
+That will make your README **look like official documentation**, which is *perfect* for a portfolio.  
+
+Do you want me to **add those styled info boxes & status panels now** so it matches your Swift example exactly?
