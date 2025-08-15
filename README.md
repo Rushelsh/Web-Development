@@ -73,3 +73,7 @@ Create `index.html`:
   <p>This is a simple webpage built with HTML.</p>
 </body>
 </html>
+
+## 5. Adding Styles with CSS
+
+Create style.css and link it:
