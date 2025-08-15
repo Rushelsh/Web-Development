@@ -34,3 +34,42 @@
 ## 1. How the Web Works
 Your browser requests files from a server (HTML, CSS, JS) and renders them into a page.
 
+Browser → Request: index.html
+Server → Response: HTML + CSS + JS
+Browser → Displays the website
+
+
+---
+
+## 2. Core Technologies
+
+| Tech | Purpose | Example |
+|---|---|---|
+| HTML | Structure | `<h1>Hello World</h1>` |
+| CSS | Styling | `h1 { color: blue; }` |
+| JavaScript | Logic | `alert("Welcome!")` |
+
+---
+
+## 3. Setting Up Your Tools
+- **VS Code** (editor)  
+- **Chrome/Firefox** (testing)  
+- **Git & GitHub** (version control + hosting)
+
+---
+
+## 4. Creating Your First Website
+Create `index.html`:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+</head>
+<body>
+  <h1>Welcome to My First Website</h1>
+  <p>This is a simple webpage built with HTML.</p>
+</body>
+</html>
