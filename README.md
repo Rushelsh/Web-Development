@@ -44,3 +44,40 @@ When you visit a website:
 2. The server sends **HTML**, **CSS**, and **JavaScript**.
 3. Your browser **renders** them into a page.
 
+
+---
+
+## 2. Core Technologies
+
+| Technology | Purpose  | Example |
+|------------|----------|---------|
+| HTML       | Structure | `<h1>Hello World</h1>` |
+| CSS        | Styling   | `h1 { color: blue; }` |
+| JavaScript | Logic     | `alert("Welcome!")` |
+
+---
+
+## 3. Setting Up Your Tools
+- [VS Code](https://code.visualstudio.com/) — Code editor
+- Chrome/Firefox — Browser for testing
+- [Git](https://git-scm.com/) — Version control
+- [GitHub](https://github.com/) — Hosting & sharing code
+
+---
+
+## 4. Creating Your First Website
+1. Create a folder: `my-first-website`
+2. Create `index.html`:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+</head>
+<body>
+  <h1>Welcome to My First Website</h1>
+  <p>This is a simple webpage built with HTML.</p>
+</body>
+</html>
